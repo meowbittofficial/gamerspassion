@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&display=swap');
+html{
+    scroll-behavior: smooth;
+    background: #10151f;
+}
+.logo{
+    height: 61px;
+    position: relative;
+    bottom: 65px;
+    right: 16px;
+    
+}
+.logo_text{
+    font: poppins;
+    font-weight: 900;
+    color: whitesmoke;
+    position: relative;
+    left: 31px;
+    }
+    ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+nav{
+    width: 600px;
+    position: relative;
+    bottom: 133px;
+    left: 660px;
+}
+a{
+    text-decoration: none;
+}
+#home{
+    height:100vw;
+    }
+section{
+    z-index: 0;
+    }
+ .menu{
+    color: whitesmoke;
+    font-family: poppins;
+    font-weight: 900;
+    transition: background 3ms, color 3ms, padding 3ms, border-radius 3ms;
+}
+.menu:hover{
+    background: whitesmoke;
+    border-radius:2px;
+    color: #10151f;
+    padding: 2px 5px 2px 5px;
+}
+.quote{
+    color: whitesmoke;
+    font-size:50px;
+    font-family: poppins;
+    font-weight: 900;
+}
+quote-div{
+    transform: scale(20%);
+}
+    .hrline{
+    position: relative;
+    bottom: 100px;
+}
+.about-img{
+    width: 300px;
+    position: relative;
+}
+.title_a{
+    color: whitesmoke;
+    font-size: 40px;
+    position: relative;
+    text-align:center ;
+    right: 200px;
+    font-family: poppins;
+    font-weight: 900;
+}
+.about-title-div{
+    position: relative;
+    left: 40%;
+    width: 40%;
+}
+.about-hr{
+    position: relative;
+    bottom: 10px;
+    right: 80px;
+}
+.title_a:hover{
+    font-size: 42px;
+}
+#about_us{
+    height: 100vh;
+}
+.heart{
+    width:300px ;
+}
+.donate-title{
+    color: whitesmoke;
+    font-family: poppins;
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    
+    text-align: center;
+}
+.heart{
+    position: relative;
+    bottom: 440px;
+    left: 800px;
+}
+.plans{
+    position: relative;
+    right: 70px;
+}
+.plan-hr{
+    position: relative;
+    bottom: 50px;
+}
+span {
+  content: "\201C";
+color: whitesmoke;
+font-size: 50px;
+}
+.quomr{
+    position: relative;
+    bottom: 203px;
+    left: 150px;
+}
+.quoml{
+    position: relative;
+    bottom: 195px;
+    left: 1056px;
+}
+#about_us{
+    height: 100vw;
+}
+#donate{
+    height: 100vw;
+}
+.b, .a, .c{
+    background-color: #ff7e15;
+    width: 400px;
+    height: 60px;
+    border-top-left-radius:4px;
+    border-top-right-radius: 4px;
+    }
+.cp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ol{
+    list-style: none ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: whitesmoke;
+    font-family: poppins;
+    font-weight: 900;
+    font-size: 30px;
+    }
+#ba{
+   position: relative; 
+   bottom: 90px;
+   right: 60px;
+}
+#fa{
+  position: relative; 
+   bottom: 90px;
+   right: 60px;  
+}
+#pa{
+    position: relative; 
+   bottom: 90px;
+   right: 10px;
+}
